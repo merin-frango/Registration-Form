@@ -31,6 +31,7 @@ body {
     padding: 5px;
     border: none;
     border: solid gray 1px;
+    font-size: 10px !important;
 }
 
 #email {
@@ -39,6 +40,7 @@ body {
     padding: 5px;
     border: none;
     border: solid gray 1px;
+    font-size: 10px !important;
 }
 
 #password {
@@ -77,3 +79,4 @@ body {
     color: red;
     font-size: 9px !important;
 }
+
