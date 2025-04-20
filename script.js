@@ -56,6 +56,12 @@ function checkallfields() {
     }
 }
 
+var form = document.getElementById("form");
+
+form.addEventListener("submit", function (event) {
+    event.preventDefault(); 
+})
+
 submit.addEventListener("click", function(){
     alert("Registration Successful!!")
 })
