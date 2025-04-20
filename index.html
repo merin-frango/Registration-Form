@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <!-- Font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <form>
+        <table>
+
+            <div id="mainContainer">
+
+                <h2>Registration Form</h2>
+
+                <div id="one">
+                    <p>Your Name</p>
+                    <input type="text" id="namee" placeholder="Eneter Your Name">
+                    <p id="nameError"></p>
+                </div>
+
+                <div id="two">
+                    <p>Your Email</p>
+                    <input type="email" placeholder="company@email.com" id="email">
+                    <p id="mailError"></p>
+                </div>
+
+                <div id="three">
+                    <p>Password</p>
+                    <input type="password" placeholder="••••••••" id="password">
+                    <p id="pasError"></p>
+                </div>
+
+                <div id="four">
+                    <input type="checkbox" id="checkBox">I accept the <a href="#">Terms and Conditions</a>
+                </div>
+
+                <button id="submit" type="submit" disabled>Submit</button>
+
+            </div>
+
+        </table>
+
+    </form>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
